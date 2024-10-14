@@ -41,7 +41,7 @@ option{
     height: 80px; /* Definição da altura */
 }
 .right {
-    background-color: rgb(168, 168, 168);
+    background-color: white;
 }
 
 select {
@@ -51,7 +51,7 @@ select {
     padding: 10px;
     text-align: center;
     font-size: 24px;
-    background-color: rgb(168, 168, 168);
+    background-color: white;
 }
 
 img {

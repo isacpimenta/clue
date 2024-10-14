@@ -40,7 +40,9 @@ option{
     width: 180px; /* Ajuste para ter mais espaço, se necessário */
     height: 80px; /* Definição da altura */
 }
-
+td {
+    background-color: white;
+}
 select {
     width: 100%; /* Faz o select ocupar toda a largura do <td> */
     height: 100%; /* Faz o select ocupar toda a altura do <td> */
@@ -48,4 +50,5 @@ select {
     padding: 10px;
     text-align: center;
     font-size: 24px;
+    background-color: white;
 }

@@ -76,7 +76,8 @@ a{
 
 @media (max-width: 768px) {
     img {
-        max-width: 200px;
+        max-width: 400px;
         max-height: 200px;
+        margin-bottom: 50px;
     }
 }

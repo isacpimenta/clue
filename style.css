@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    border: none;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: light;
+
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    text-align: center;
+    width: 180px; /* Ajuste para ter mais espaço, se necessário */
+    height: 80px; /* Definição da altura */
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+option{
+    width: 180px; /* Ajuste para ter mais espaço, se necessário */
+    height: 80px; /* Definição da altura */
+}
+
+select {
+    width: 100%; /* Faz o select ocupar toda a largura do <td> */
+    height: 100%; /* Faz o select ocupar toda a altura do <td> */
+    border: none; /* Opcional: remove a borda interna do select */
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+}

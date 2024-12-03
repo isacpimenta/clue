@@ -75,6 +75,61 @@ a{
     color: black;
 }
 
+textarea {
+    text-indent: 5px;
+    padding: 5px;
+}
+
+.note-area {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+.show-note-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.show-note-btn:hover {
+    background-color: #0056b3;
+}
+
+.save-btn {
+    background-color: #13a500;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.save-btn:hover {
+    background-color: #0b5a00;
+}
+
+.reset-btn {
+    background-color: #e00000;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.reset-btn:hover {
+    background-color: #a10000
+}
+
+.buttons-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    display: flex;
+    gap: 10px;
+}
+
 @media (max-width: 768px) {
     img {
         max-width: 400px;
